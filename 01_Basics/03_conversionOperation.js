@@ -28,3 +28,40 @@ let anyNumber = 18
 let stringNumber = String(anyNumber)
 console.log(typeof stringNumber)
 console.log(stringNumber)
+
+// ************************ Operations ************************
+
+let value = 6
+let negValue = -value
+console.log(negValue) 
+
+console.log( 18 + 20 )
+console.log( 18 - 20 )
+console.log( 18 * 20 )
+console.log( 36 / 160 )
+console.log( 2 ** 6 )     // 2 to pow 6
+console.log( 10 % 5  )
+
+let str1 = "Hello"
+let str2 = "Shruti"
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1" + 2 )  // o/p => 12
+console.log(1 + "2" )  //o/p => 12
+console.log("1" + 2 + 2)  //o/p => 122       //if string is first whole expression is treated as string
+console.log(1+ 2 + "2" )   //o/p =>32        
+
+console.log((3 + 4) * 5  % 3 )
+
+console.log(true)  //o/p => true 
+console.log(+true) //o/p => 1
+console.log(+"")   //o/p => 0
+
+let num1 ,num2, num3
+num1 = num2 = num3 = 2 + 2 // don't do like this 
+
+let gameCounter = 100
+gameCounter++;  // (postfix)first use then increment
+// ++gameCounter;  // (prefix)first increment then use
+console.log(gameCounter);
