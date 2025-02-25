@@ -57,4 +57,32 @@
  console.log(typeof id)
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// Memory
+//1) Stack(Primitive)  we get a copy
+//2) Heap(non Primitive) we get a reference
+
+// stack memory
+let myYoutubename ="let's grow"
+
+let anothername = myYoutubename
+anothername = "Shruti Chaudhari"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+// heap memory 
+let user1 = {
+  email: "user@google.com",
+  upi: "user@ybl"
+}
+
+let user2 = user1
+
+
+user2.email = "shruti@google.com"
+
+console.log(user1.email)
+console.log(user2.email)
